@@ -29,7 +29,7 @@ An AI-powered support agent built with **Node.js**, **TypeScript**, and **LangCh
 │ ranked doc   │ │ ticket ID,   │ │ role, recent │
 │ search       │ │ validates    │ │ activity     │
 └──────────────┘ └──────────────┘ └──────────────┘
-   (mock KB)        (mock store)     (mock users)
+    (KB)            (store)           (users)
 ```
 
 ### Key Components
