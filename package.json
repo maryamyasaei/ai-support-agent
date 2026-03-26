@@ -1,0 +1,23 @@
+{
+  "name": "ai-support-agent",
+  "version": "1.0.0",
+  "description": "AI-powered internal support agent with LangChain tool calling",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node --max-old-space-size=4096 -r ts-node/register/transpile-only src/index.ts",
+    "build": "tsc",
+    "start:built": "node dist/index.js"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.3.0",
+    "@langchain/openai": "^0.3.0",
+    "langchain": "^0.3.0",
+    "dotenv": "^16.4.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.6.0"
+  }
+}
